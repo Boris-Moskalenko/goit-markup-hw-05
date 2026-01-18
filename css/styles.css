@@ -508,8 +508,11 @@ color: #F4F4FD;
     right: 24px;
     background-color: #E7E9FC;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-close-icon {
+    fill: #2e2f42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close:hover,
 .modal-close:focus {
@@ -551,6 +554,7 @@ color: #F4F4FD;
     padding-left: 38px;
     padding-right: 4px;
     outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input:focus {
     border-color: #4D5AE5;
@@ -585,6 +589,7 @@ color: #F4F4FD;
     line-height: 1.17;
     letter-spacing: 0.04em;
     outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-text-area:focus {
     border-color: #4D5AE5;
@@ -595,7 +600,7 @@ color: #F4F4FD;
 .label-chek {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.17;
+    line-height: 1.33;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
@@ -608,6 +613,7 @@ color: #F4F4FD;
     width: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .chek-icon {
     opacity: 0;
@@ -635,6 +641,8 @@ color: #F4F4FD;
     display: flex;
     margin: 0 auto;
     padding: 16px 65px;
+    min-width: 169px;
+    height: 56px;
     border: none;
     border-radius: 4px;
     background-color: #4d5ae5;
